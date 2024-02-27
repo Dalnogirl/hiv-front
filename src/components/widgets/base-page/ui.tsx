@@ -7,7 +7,7 @@ interface BasePageProps {
 
 export const BasePage = ({ children }: BasePageProps) => {
   return (
-    <main className="flex min-h-screen flex-col bg-zinc-950 dark:bg-white items-center justify-between">
+    <main className="flex min-h-screen flex-col bg-white dark:bg-zinc-950 items-center justify-between">
       <Header />
       <section className="p-4 text-white">{children}</section>
     </main>
